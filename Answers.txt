@@ -1,0 +1,79 @@
+Team You Are Doing Me A Frighten - Dylan Wright, Anton Goretsky
+APCS2 pd5
+HW32 -- 2^10 Groups of 64-Bits
+2016-04-14
+
+
+
+A1: Introduction to digital pictures and color
+    1. How many bits does it take to represent the values from 0 to 255?
+        A: 8 bits
+    2. How many bytes does it take to represent a color in the RGB color model?
+        A: 3 bytes
+    3. How many pixels are in a picture that is 640 pixels wide and 480 pixels high?
+        A: 307,200 pixels
+
+A2: Picking a color
+    1. How can you make pink?
+        A: [r=255,g=100,b=165]
+    2. How can you make yellow?
+        A: [r=255,g=255,b=0]
+    3. How can you make purple?
+        A: [r=165,g=0,b=255]
+    4. How can you make white?
+        A: [r=255,g=255,b=255]
+    5. How can you make a dark gray
+        A: [r=80,g=80,b=80]
+
+A3: Exploring a picture
+    1. What is the row index for the top left corner of the picture?
+        A: 0
+    2. What is the column index for the top left corner of the picture?
+        A: 0
+    3. The width of this picture is 640. What is the right most column index?
+        A: 639
+    4. The height of this picture is 480. What is the bottom most row index?
+        A: 479
+    5. Does the row index increase from left to right or top to bottom?
+        A: Top to Bottom
+    6. Does the column index increase from left to right or top to bottom?
+        A: Left to Right
+
+A4: Two-dimensional arrays in Java
+
+A5: Modifying a picture
+    1. Open Picture.java and look for the method getPixels2D. Is it there?
+        A: No
+    2. Open SimplePicture.java and look for the method getPixels2D. Is it there?
+        A: Yes
+    3. Does the folloing code compile?
+        DigitalPicture p = new DigitalPicture();
+        A: No
+    4. Assuming that a no-arguement constructor exists for SimplePicture, would the following code compile?
+        DigitalPicture p = new SimplePicture();
+        A: Yes
+    5. Assuming that a no-arguement constructor exists for Picture, would the following code compile?
+        DigitalPicture p = new Picture();
+        A: Yes
+    6. Assuming that a no-arguement constructor exists for Picture, would the following code compile?
+        SimplePicture p = new Picture();
+        A: Yes
+    7. Assuming that a no-arguement constructor exists for SimplePicture, would the following code compile?
+        Picture p = new SimplePicture();
+        A: No
+
+A6: Mirroring pictures
+
+A7: Mirroring part of a picture
+    1. How many times would the body of this nested for loop execute?
+        for (int row = 7; row < 17; row++)
+            for (int col = 6; col < 15; col++)
+        A: 90 times
+    2. How many times would the body of this nested for loop execute?
+        for (int row = 5; row <= 11; row++)
+            for (int col = 3; col <= 18; col++)
+        A: 112 times
+
+A8: Creating a collage
+
+A9: Simple edge detection
